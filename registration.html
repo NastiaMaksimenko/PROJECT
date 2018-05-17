@@ -7,8 +7,10 @@
         #register,
         #login {
             position: absolute;
-            top: 0px;
-            width: 88%;
+            top: 50px;
+            right: 500px;
+            left: 250px;
+            width: 50%;
             padding: 18px 6% 60px 6%;
             margin: 0 0 35px 0;
             background: rgb(247, 247, 247);
@@ -99,7 +101,7 @@
         }
 
         input:-moz-placeholder,
-        textarea:-moz-placeholde r{
+        textarea:-moz-placeholder{
             color: rgb(190, 188, 188);
             font-style: italic;
         }
@@ -227,6 +229,7 @@
     </style>
 </head>
 <body>
+
 <div id="container_demo" >
     <a class="hiddenanchor" id="toregister"></a>
     <a class="hiddenanchor" id="tologin"></a>
@@ -252,7 +255,8 @@
                 <p class="change_link">
                     Не зарегистрированы еще ?
                     <a href="#toregister" class="to_register">Присоединяйтесь</a>
-                </p>
+                    или
+                    <a href="home.html" class="to_register">Вернуться на главную</a></p>
             </form>
         </div>
 
@@ -281,6 +285,8 @@
                 <p class="change_link">
                     Уже зарегистрированы ?
                     <a href="#tologin" class="to_register"> Войдите на сайт </a>
+                    или
+                    <a href="home.html" class="to_register">Вернуться на главную</a></p>
                 </p>
             </form>
         </div>
